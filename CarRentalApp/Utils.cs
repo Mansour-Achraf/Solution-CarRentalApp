@@ -16,7 +16,9 @@ namespace CarRentalApp
             var OpenForms = Application.OpenForms.Cast<Form>();
             var isOpen = OpenForms.Any(q => q.Name == name);
             return isOpen;
+            //comment to test github
         }
+
 
         public static string HashPassword(string password)
         {
